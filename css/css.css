@@ -1,73 +1,80 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
 }
 
-.pagina {
+#pagina {
     max-width: 940px;
     min-width: 720px;
-    border: 4px double #000099;
-    margin: 10px auto 10px auto;
+    border: 4px double #757575;
+    margin: 25px auto;
+    background-color: #212121;
 }
 
 #logo {
-    width: 100%;
+    margin: 25px auto;
     text-align: center;
+    background-color: #e0e0e0;
 }
 
 #logo > img {
     width: 200px;
+    margin-top: 5px;
+    border-left: 4px double #757575;
+    border-right: 4px double #757575;
 }
 
-#menu {
-    width: auto;
-    height: auto;
-    text-align: center;
-    display: inline-block;
-}
-
-#menu ul, ol {
-    list-style: none;
+#menu ul {
+    min-width: 150px;
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 4px solid #757575;
+    border-bottom: 3px solid #757575;
     text-align: center;
 }
 
 #menu li {
-    float: left;
-    width: auto;
-    padding: 10px 5px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: #3f448c;
+    display: inline;
+    text-transform: uppercase;
+    width: 100px;
 }
 
-#menu li > a {
+#menu a {
     text-decoration: none;
-    color: #7178df;
-    padding: 5px;
-    font-family: monospace;
-    letter-spacing: 0.15em;
+    padding: 5px 18px 5px 18px;
+    color: #0f0f0f;
 }
 
-#menu li > a:hover {
-    background-color: #bbbeef;
+#menu a:hover, a.home {
+    color: #e0e0e0;
+    background-color: #303030;
 }
 
 #content {
+    margin: 15px auto 15px 0px;
+    padding: 25px 0px 25px 0px;
+    border-top: 4px solid #757575;
+    border-bottom: 4px solid #757575;
+    background-color: #e0e0e0;
     text-align: center;
-    border: 5px gray;
 }
 
-#content > img{
-    width: 500px;
+#content > img {
+    min-width: 150px;
+    max-width: 718px;
 }
 
 #footer {
-    text-align: center;
-
+    max-width: 600px;
+    min-width: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px auto;
 }
 
-footer {
-    font-family: monospace;
+#footer > footer {
+    width: 600px;
     text-align: center;
-    width: 550px;
 }
