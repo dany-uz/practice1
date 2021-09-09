@@ -67,6 +67,11 @@
     max-width: 718px;
 }
 
+#content > iframe {
+    max-width: 920px;
+    min-width: 150px;
+}
+
 #footer {
     max-width: 600px;
     min-width: 150px;
